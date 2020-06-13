@@ -1,3 +1,3 @@
 $(window).scroll(function () {
-  $("nav").toggleClass("scrolled", $(this).scrollTop() > 80);
+  $("nav").toggleClass("shadow-lg", $(this).scrollTop() > 80);
 });
