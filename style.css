@@ -38,6 +38,10 @@
   letter-spacing: 0.4rem;
 }
 
+.nav-btn {
+  border: none !important;
+}
+
 header {
   margin-top: 60px;
   padding: 180px 20px;
