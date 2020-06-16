@@ -49,7 +49,18 @@ header {
 
 .header-info span {
   display: inline-block;
-  background-color: var(--primary-color);
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 0.5rem 1.5rem;
   border-radius: 15px 15px 15px 0;
   color: #fff;
@@ -106,29 +117,29 @@ ul.social-icon li i:hover {
   border-radius: 4px;
 }
 
-.project-img {
+/* .project-img {
   display: block;
   height: 463px !important;
   object-fit: cover;
   object-position: center;
-}
+} */
 
-.project-img-sm {
+/* .project-img-sm {
   height: 220px !important;
   object-fit: cover;
-}
+} */
 
 .edu-work-card {
   border-radius: 7px;
   margin-bottom: 0.9rem !important;
 }
 
-.project-container {
+/* .project-container {
   position: relative !important;
   overflow: hidden;
-}
+} */
 
-.project-link {
+/* .project-link {
   position: absolute !important;
 
   top: 0;
@@ -146,15 +157,15 @@ ul.social-icon li i:hover {
   transform: translateX(-110%);
   transition: all 0.5s ease-in-out;
   margin: 0 15px;
-}
+} */
 
-.project-container:hover .project-link {
+/* .project-container:hover .project-link {
   transform: translateX(0);
 }
 
 .project-wrapper {
   padding: 0 25px !important;
-}
+} */
 
 /* .project-info {
   background: red;
@@ -162,9 +173,9 @@ ul.social-icon li i:hover {
   margin-bottom: 120px !important;
 } */
 
-.project-1 {
-  width: 100%;
-  height: 460px !important;
+.project {
+  /* width: 100%; */
+  height: 300px !important;
 
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -172,10 +183,28 @@ ul.social-icon li i:hover {
 
   overflow: hidden;
   background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/project-1.jpeg");
+  /* background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("img/project-1.jpeg"); */
+}
+
+.pro-1 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/project-1.jpeg"); /* The least supported option. */
+    url("img/pro-1.jpg"); /* The least supported option. */
+}
+
+.pro-2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("img/pro-2.png"); /* The least supported option. */
+}
+
+.pro-3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("img/pro-3.jpeg"); /* The least supported option. */
+}
+
+.pro-4 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("img/pro-4.jpg"); /* The least supported option. */
 }
 
 .project-inner {
@@ -183,8 +212,16 @@ ul.social-icon li i:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.project-1:hover .project-inner {
+.project:hover .project-inner {
   background: rgba(0, 0, 0, 0.4);
+}
+
+/* Project Catagory */
+.pro-cat {
+  border-width: 2px !important;
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
 }
 
 img {
