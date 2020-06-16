@@ -28,12 +28,12 @@
   transition: all 0.5s ease-in-out;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li:hover a.nav-link {
   border-bottom: 1px solid var(--primary-color);
 }
 
 .navbar-brand {
-  font-size: 1.4rem !important;
+  font-size: 1.2rem !important;
   font-weight: bold;
   letter-spacing: 0.4rem;
 }
@@ -44,7 +44,7 @@
 
 header {
   margin-top: 60px;
-  padding: 180px 20px;
+  padding: 180px 0;
 }
 
 .header-info span {
@@ -68,7 +68,7 @@ header {
 }
 
 .header-info h1 {
-  font-size: 4rem !important;
+  font-size: 3.5rem !important;
 }
 
 .img-frame {
@@ -236,4 +236,42 @@ img {
 
 footer p {
   line-height: 75px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+
+    letter-spacing: 0.1rem;
+  }
+
+  header {
+    padding: 60px 0;
+  }
+
+  .section-space {
+    padding: 3rem 0;
+  }
+
+  ul.social-icon {
+    justify-content: center;
+  }
+
+  .header-info span {
+    text-align: start !important;
+  }
+
+  .header-info h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0.9rem;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-desc {
+    text-align: center;
+  }
 }
