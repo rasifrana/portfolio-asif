@@ -10,14 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .scrolled {
-  background: rgba(255, 255, 255, 0.9) !important;
-  -webkit-box-shadow: -1px 10px 19px -4px rgba(0, 0, 0, 0.55);
-  -moz-box-shadow: -1px 10px 19px -4px rgba(0, 0, 0, 0.55);
-  box-shadow: -1px 10px 19px -4px rgba(0, 0, 0, 0.55);
-  transition: all 0.5s ease-in-out;
-} */
-
 .section-space {
   padding: 5rem 0;
 }
@@ -131,61 +123,10 @@ ul.tech-desc {
   margin-right: 0.5rem;
 }
 
-/* .project-img {
-  display: block;
-  height: 463px !important;
-  object-fit: cover;
-  object-position: center;
-} */
-
-/* .project-img-sm {
-  height: 220px !important;
-  object-fit: cover;
-} */
-
 .edu-work-card {
   border-radius: 7px;
   margin-bottom: 0.9rem !important;
 }
-
-/* .project-container {
-  position: relative !important;
-  overflow: hidden;
-} */
-
-/* .project-link {
-  position: absolute !important;
-
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: var(--primary-color) !important;
-  z-index: 2;
-  color: azure;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transform: translateX(-110%);
-  transition: all 0.5s ease-in-out;
-  margin: 0 15px;
-} */
-
-/* .project-container:hover .project-link {
-  transform: translateX(0);
-}
-
-.project-wrapper {
-  padding: 0 25px !important;
-} */
-
-/* .project-info {
-  background: red;
-  height: 6rem;
-  margin-bottom: 120px !important;
-} */
 
 .project {
   /* width: 100%; */
@@ -203,22 +144,22 @@ ul.tech-desc {
 
 .pro-1 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/pro-1.jpg"); /* The least supported option. */
+    url("../img/pro-1.jpg"); /* The least supported option. */
 }
 
 .pro-2 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/pro-2.png"); /* The least supported option. */
+    url("../img/pro-2.png"); /* The least supported option. */
 }
 
 .pro-3 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/pro-3.jpeg"); /* The least supported option. */
+    url("../img/pro-3.jpeg"); /* The least supported option. */
 }
 
 .pro-4 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("img/pro-4.jpg"); /* The least supported option. */
+    url("../img/pro-4.jpg"); /* The least supported option. */
 }
 
 .project-inner {
