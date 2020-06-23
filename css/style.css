@@ -189,6 +189,10 @@ ul.tech-desc {
   height: 500px !important;
 }
 
+.edu-work-card {
+  min-height: 260px;
+}
+
 .contact-icon {
   padding: 3rem;
   border-radius: 50%;
