@@ -189,6 +189,62 @@ ul.tech-desc {
   height: 500px !important;
 }
 
+.general-projects {
+  display: grid;
+  padding: 0 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.gp {
+  height: 7rem;
+
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+font-weight: bold;
+border-radius: 0.2rem;
+background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 1s ease-in-out;
+}
+
+
+
+.gp-1 {
+  background:url(../img/react.jpeg) rgba(0, 0, 0, 0.6);
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 1s ease-in-out;
+}
+
+.gp-2 {
+  background:url(../img/api.png) rgba(0, 0, 0, 0.6);
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 1s ease-in-out;
+}
+
+.gp-3 {
+  background:url(../img/fullstack.png) rgba(0, 0, 0, 0.6);
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 1s ease-in-out;
+}
+
+.gp:hover {
+  background-size: 110%;
+  background-position: center;
+  text-decoration: none;
+  color: #fff;
+}
+
 .edu-work-card {
   min-height: 260px;
 }
