@@ -198,16 +198,16 @@ ul.tech-desc {
 
 .gp {
   height: 7rem;
-
-color: #fff;
+  padding: 0 0.2rem;
+ color: #fff;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 1.5rem;
+font-size: 1.3rem;
 font-weight: bold;
 border-radius: 0.2rem;
 background-size:cover;
-  background-position: center;
+
   background-blend-mode: multiply;
   transition: all 1s ease-in-out;
 }
@@ -217,25 +217,25 @@ background-size:cover;
 .gp-1 {
   background:url(../img/react.jpeg) rgba(0, 0, 0, 0.6);
   background-size:cover;
-  background-position: center;
+ 
   background-blend-mode: multiply;
-  transition: all 1s ease-in-out;
+
 }
 
 .gp-2 {
   background:url(../img/api.png) rgba(0, 0, 0, 0.6);
   background-size:cover;
-  background-position: center;
+ 
   background-blend-mode: multiply;
-  transition: all 1s ease-in-out;
+ 
 }
 
 .gp-3 {
   background:url(../img/fullstack.png) rgba(0, 0, 0, 0.6);
   background-size:cover;
-  background-position: center;
+ 
   background-blend-mode: multiply;
-  transition: all 1s ease-in-out;
+
 }
 
 .gp:hover {
@@ -260,7 +260,7 @@ footer p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .navbar-brand {
     font-size: 1rem !important;
 
@@ -311,5 +311,16 @@ footer p {
 
   .modal-inner {
     width: 100% !important;
+  }
+
+  .general-projects {
+    
+    grid-template-columns: 1fr ;
+    
+
+  }
+
+  .gp {
+    font-size: 1.2rem;
   }
 }
