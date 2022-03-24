@@ -170,7 +170,7 @@ ul.tech-desc {
 
 .pro-1 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url("../img/pro-1.jpg"); /* The least supported option. */
+    url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2375&q=80"); /* The least supported option. */
 }
 
 .pro-2 {
